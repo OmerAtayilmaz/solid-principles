@@ -1,6 +1,6 @@
 <?php
 
-//basit bir örnek daha;
+//basit bir örnek daha; interface kulalnarak farklı ödeme türlerini kabul edecek şekilde ayarladık.
 interface PaymentMethodInterface{
     public function process();
 }
