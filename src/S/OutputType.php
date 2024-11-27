@@ -3,5 +3,5 @@
 namespace App\S;
 
 interface OutputType{
-    public function format($data);
+     public function format($data);
 }
